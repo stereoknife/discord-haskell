@@ -159,7 +159,7 @@ library
   build-depends:
   -- https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/libraries/version-history
   -- below also sets the GHC version effectively. set to == 8.10.*, == 9.0.*., == 9.2.*, == 9.4.*
-    base == 4.14.* || == 4.15.* || == 4.16.* || == 4.17.*,
+    base == 4.14.* || == 4.15.* || == 4.16.* || == 4.17.* || == 4.18.*,
     aeson >= 1.5 && < 1.6 || >= 2.0 && < 2.2,
     async >=2.2 && <2.3,
     bytestring >=0.10 && <0.12,
@@ -169,7 +169,7 @@ library
     emoji ==0.1.*,
     http-client >=0.6 && <0.8,
     iso8601-time >=0.1 && <0.2,
-    MonadRandom >=0.5 && <0.6,
+    MonadRandom >=0.5 && <0.7,
     req >=3.9 && <3.14,
     safe-exceptions >=0.1 && <0.2,
     text >=1.2 && <3,
@@ -177,7 +177,7 @@ library
     websockets >=0.12 && <0.13,
     network >=3.0.0.0 && <3.2.0.0,
     wuss >=1.1 && <3,
-    mtl >=2.2 && <2.3,
+    mtl >=2.2 && <2.4,
     unliftio >=0.2 && <0.3,
     scientific >=0.3 && <0.4,
     http-api-data >=0.4 && <0.6,
